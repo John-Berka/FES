@@ -186,3 +186,32 @@ textarea::placeholder {
   font-size:18px;
 }
 /* Contact End */
+
+/* Footer Start */
+
+footer {
+  padding: 60px 0px;
+  background-color: rgb(184, 238, 255);
+}
+ .row__footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;flex-direction: column;
+  align-items: center;
+ }
+
+ .footer__logo {
+  width: 500px;
+  margin: 20px;
+}
+
+.footer__link {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.footer__links {
+  margin-bottom: 30px;
+}
+/* Footer End */
