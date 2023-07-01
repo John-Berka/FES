@@ -6,3 +6,38 @@
   box-sizing: border-box;
 }
 
+/* Nvabar styling Start */
+.logo {
+  width: 300px;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  padding: 20px 20px;
+  background-color: aquamarine;
+}
+ nav ul{
+  display: flex;
+ align-items: center;
+ }
+
+ nav ul li {
+  margin-right: 20px;
+  list-style: none;
+  font-size: 24px;
+  
+ }
+
+ a {
+  font-weight:700;
+  color: black;
+ }
+ /* Navbar Styliing End */
+
+
+ /* Header Start */
+
+ 
+
+ /* Header End */
