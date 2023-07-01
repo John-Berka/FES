@@ -49,6 +49,18 @@ header {
   height: 100vh;
 }
 
+.home__description {
+  width:60%
+}
+
+.home__img--wrapper {
+  width: 40%;
+}
+
+.home__img--wrapper img {
+  width: 100%;
+}
+
 .home__description h1 {
   font-size: 70px;
   margin-bottom: 35px;
@@ -91,14 +103,17 @@ button {
   margin-bottom: 30px;
 }
 
+
 .section__description--wrapper {
   margin-right: 20px;
+  width:60%;
 }
 
 .section__description {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
 }
 
 .section__description--para {
@@ -106,8 +121,12 @@ button {
   margin-bottom: 30px;
 }
 
+.about__img--wrapper {
+  width: 40%;
+}
+
 .about__img--wrapper img {
-  width: 400px;
+  width: 100%;
   border-radius: 10px;
 }
 /* About End */
@@ -132,6 +151,9 @@ button {
   font-size: 60px;
   margin-bottom: 30px;
 }
+
+
+
 
 /* Discord End */
 
@@ -215,3 +237,88 @@ footer {
   margin-bottom: 30px;
 }
 /* Footer End */
+
+
+
+
+
+/* Responsiveness */
+
+@media (max-width:726px) {
+  header .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home__description h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+  .subheader {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .home__img--wrapper {
+    width:60%;
+  }
+
+  /* about section */
+
+  .row__about h2{
+    text-align: center;
+  }
+  .row__about .section__description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__description--para {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .about__img--wrapper {
+    width: 60%;
+    margin-bottom: 25px;
+  }
+
+  /* Discord Section */
+  .section__description {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Contact */
+
+  #contact {
+    padding: 8px 16px;
+  }
+
+  .row__footer {
+    width: 100%;
+    max-width:300px
+  }
+  .footer__logo {
+    width: 100%;
+  }
+
+  .footer__link {
+    font-size: 15px;
+  }
+
+}
